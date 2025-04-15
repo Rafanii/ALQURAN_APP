@@ -11,7 +11,7 @@
         >
           <div class="card bg-light border border-success shadow-sm">
             <div class="d-flex align-items-start p-3">
-              <!-- Nomor Surah -->
+              
               <div
                 class="me-3 d-flex justify-content-center align-items-center bg-success text-white fw-bold rounded-circle"
                 style="width: 50px; height: 50px;"
@@ -19,20 +19,19 @@
                 {{ surah.id }}
               </div>
 
-              <!-- Info Surah -->
               <div class="flex-grow-1">
                 <a
                   @click="goToSurah(surah.id)"
                   class="text-decoration-none text-success"
                   style="cursor: pointer;"
                 >
-                  <!-- Nama dan Arab -->
+                 
                   <div class="fw-bold d-flex justify-content-between align-items-center">
                     <div>{{ surah.name_simple }}</div>
                     <div class="arabic-font-kanan">{{ surah.name_arabic }}</div>
                   </div>
 
-                  <!-- Arti dan Lokasi -->
+                
                   <div class="d-flex justify-content-between align-items-center mt-2">
                     <div class="text-muted small">
                       Arti: {{ surah.translated_name.name }}

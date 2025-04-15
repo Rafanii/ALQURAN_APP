@@ -9,7 +9,7 @@
       <h1 class="display-4 fw-bold text-success" style="font-family: 'Amiri', serif;">القرآن</h1>
       <p class="mt-3 text-muted">Selamat datang di Alquran Digital</p>
 
-      <!-- Tombol Navigasi dengan warna hijau islami -->
+    
       <div class="d-grid gap-3 mt-4">
         <router-link
           to="/surah"
